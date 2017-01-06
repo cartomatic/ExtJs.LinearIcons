@@ -3,16 +3,16 @@
 
 //# fashion -inline
 @font-face {
-  font-family: 'FontAwesome';
-  src: url('#{$fa-font-path}/fontawesome-webfont.eot?v=#{$fa-version}');
+  font-family: 'Linearicons';
+  //src: url('#{$li-font-path}/Linearicons.eot?v=#{$li-version}');
   //# fashion +inline:eot
   //# fashion +inline:ttf
-  src: url('#{$fa-font-path}/fontawesome-webfont.eot?#iefix&v=#{$fa-version}') format('embedded-opentype'),
-    url('#{$fa-font-path}/fontawesome-webfont.woff2?v=#{$fa-version}') format('woff2'),
-    url('#{$fa-font-path}/fontawesome-webfont.woff?v=#{$fa-version}') format('woff'),
-    url('#{$fa-font-path}/fontawesome-webfont.ttf?v=#{$fa-version}') format('truetype'),
-    url('#{$fa-font-path}/fontawesome-webfont.svg?v=#{$fa-version}#fontawesomeregular') format('svg');
-//  src: url('#{$fa-font-path}/FontAwesome.otf') format('opentype'); // used when developing fonts
+  src: //url('#{$li-font-path}/Linearicons.eot?#iefix&v=#{$li-version}') format('embedded-opentype'),
+    //url('#{$li-font-path}/Linearicons.woff2?v=#{$li-version}') format('woff2'),
+    url('#{$li-font-path}/Linearicons.woff?v=#{$li-version}') format('woff'),
+    url('#{$li-font-path}/Linearicons.ttf?v=#{$li-version}') format('truetype'),
+    url('#{$li-font-path}/Linearicons.svg?v=#{$li-version}#lineariconsregular') format('svg');
+//  src: url('#{$li-font-path}/Linearicons.otf') format('opentype'); // used when developing fonts
   font-weight: normal;
   font-style: normal;
 }

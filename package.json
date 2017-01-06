@@ -1,7 +1,7 @@
 {
     "namespace": "Ext",
 
-    "name": "font-awesome",
+    "name": "linear-icons",
     "type": "code",
 
     "framework": "ext",
@@ -12,8 +12,8 @@
     //],
 
     "creator": "Sencha",
-    "summary": "Package wrapper for Font Awesome",
-    "detailedDescription": "Sencha Cmd package wrapper for Font Awesome (http://fortawesome.github.io/Font-Awesome/)",
+    "summary": "Package wrapper for Linear icons",
+    "detailedDescription": "Sencha Cmd package wrapper for Linear Icons (https://linearicons.com/)",
 
     "version": "6.2.0.981",
     "compatVersion": "4.3.0",
