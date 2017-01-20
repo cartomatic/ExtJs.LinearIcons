@@ -12,8 +12,8 @@
     //],
 
     "creator": "Cartomatic",
-    "summary": "Package wrapper for Linear icons",
-    "detailedDescription": "Sencha Cmd package wrapper for Linear Icons (https://linearicons.com/)",
+    "summary": "Package wrapper for LinearIcons",
+    "detailedDescription": "Sencha Cmd package wrapper for LinearIcons (https://linearicons.com/)",
 
     "version": "6.2.0.981",
     "compatVersion": "4.3.0",

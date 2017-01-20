@@ -17,9 +17,9 @@
 @import "../etc/_icons.scss";
 
 
-// The "x-{$font-css-prefix}" class should be used in Ext JS applications instead
-// of "{$font-css-prefix}".  The "{$font-css-prefix}" class sets some properties that may collide
-// with theme properties, whereas "x-{$font-css-prefix}" sets only the font-family.
-.#{$prefix}#{$font-css-prefix}:before {
-    font-family: $font-family !important;
+// The "x-{$licons-font-css-prefix}" class should be used in Ext JS applications instead
+// of "{$licons-font-css-prefix}".  The "{$licons-font-css-prefix}" class sets some properties that may collide
+// with theme properties, whereas "x-{$licons-font-css-prefix}" sets only the font-family.
+.#{$prefix}#{$licons-font-css-prefix}:before {
+    font-family: $licons-font-family !important;
 }

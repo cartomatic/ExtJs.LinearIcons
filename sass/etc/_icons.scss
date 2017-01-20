@@ -5,9 +5,10 @@
 the actual css classes
 */
 
-.#{$css-prefix}-home:before { content: $var-home !important; }
-.#{$css-prefix}-home2:before { content: "\e601" !important; }
-.#{$css-prefix}-home3:before { content: "\e602" !important; }
-.#{$css-prefix}-home4:before { content: "\e603" !important; }
-.#{$css-prefix}-home5:before { content: "\e604" !important; }
-.#{$css-prefix}-home6:before { content: "\e605" !important; }
+
+.#{$licons-css-prefix}-home:before { content: $licons-var-home !important; }
+.#{$licons-css-prefix}-home2:before { content: $licons-var-home2 !important; }
+.#{$licons-css-prefix}-home3:before { content: $licons-var-home3 !important; }
+.#{$licons-css-prefix}-home4:before { content: $licons-var-home4 !important; }
+.#{$licons-css-prefix}-home5:before { content: $licons-var-home5 !important; }
+.#{$licons-css-prefix}-home6:before { content: $licons-var-home6 !important; }

@@ -2,23 +2,23 @@
 // --------------------------
 
 //note: font-icon is declared in sencha stuff.
-@mixin fnt-icon() {
+@mixin i54-fnt-icon() {
   display: inline-block;
-  font: normal normal normal #{$font-size-base}/#{$line-height-base} #{$font-family}; // shortening font declaration
+  font: normal normal normal #{$licons-font-size-base}/#{$licons-line-height-base} #{$licons-font-family}; // shortening font declaration
   font-size: inherit; // can't have font-size inherit on line above, so need to override
   text-rendering: auto; // optimizelegibility throws things off #1094
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-@mixin font-icon-rotate($degrees, $rotation) {
+@mixin licons-font-icon-rotate($degrees, $rotation) {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=#{$rotation})";
   -webkit-transform: rotate($degrees);
       -ms-transform: rotate($degrees);
           transform: rotate($degrees);
 }
 
-@mixin font-icon-flip($horiz, $vert, $rotation) {
+@mixin licons-font-icon-flip($horiz, $vert, $rotation) {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=#{$rotation})";
   -webkit-transform: scale($horiz, $vert);
       -ms-transform: scale($horiz, $vert);

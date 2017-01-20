@@ -1,26 +1,26 @@
 // Spinning Icons
 // --------------------------
 
-.#{$css-prefix}-spin {
-  -webkit-animation: font-spin 2s infinite linear;
-          animation: font-spin 2s infinite linear;
+.#{$licons-css-prefix}-spin {
+  -webkit-animation: licons-font-spin 2s infinite linear;
+          animation: licons-font-spin 2s infinite linear;
 }
 
-.#{$css-prefix}-step-spin {
-   -webkit-animation: font-spin 1s infinite steps(8);
-   animation: font-spin 1s infinite steps(8);
+.#{$licons-css-prefix}-step-spin {
+   -webkit-animation: licons-font-spin 1s infinite steps(8);
+   animation: licons-font-spin 1s infinite steps(8);
  }
 
 // pulsating icons
 // --------------------------
-.#{$css-prefix}-pulse {
-  -webkit-animation: font-pulsate 2s ease-out;
-  animation: font-pulsate 2s ease-out;
+.#{$licons-css-prefix}-pulse {
+  -webkit-animation: licons-font-pulsate 2s ease-out;
+  animation: licons-font-pulsate 2s ease-out;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
 
-@-webkit-keyframes font-spin {
+@-webkit-keyframes licons-font-spin {
   0% {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
@@ -31,7 +31,7 @@
   }
 }
 
-@keyframes font-spin {
+@keyframes licons-font-spin {
   0% {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
@@ -42,7 +42,7 @@
   }
 }
 
-@-webkit-keyframes font-pulsate {
+@-webkit-keyframes licons-font-pulsate {
   0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
   50% {opacity: 1.0;}
   100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}

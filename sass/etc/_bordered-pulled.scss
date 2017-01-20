@@ -1,25 +1,25 @@
 // Bordered & Pulled
 // -------------------------
 
-.#{$css-prefix}-border {
+.#{$licons-css-prefix}-border {
   padding: .2em .25em .15em;
-  border: solid .08em $border-color;
+  border: solid .08em $licons-border-color;
   border-radius: .1em;
 }
 
-.#{$css-prefix}-pull-left { float: left; }
-.#{$css-prefix}-pull-right { float: right; }
+.#{$licons-css-prefix}-pull-left { float: left; }
+.#{$licons-css-prefix}-pull-right { float: right; }
 
-.#{$css-prefix} {
-  &.#{$css-prefix}-pull-left { margin-right: .3em; }
-  &.#{$css-prefix}-pull-right { margin-left: .3em; }
+.#{$licons-css-prefix} {
+  &.#{$licons-css-prefix}-pull-left { margin-right: .3em; }
+  &.#{$licons-css-prefix}-pull-right { margin-left: .3em; }
 }
 
 /* Deprecated as of 4.4.0 */
 .pull-right { float: right; }
 .pull-left { float: left; }
 
-.#{$css-prefix} {
+.#{$licons-css-prefix} {
   &.pull-left { margin-right: .3em; }
   &.pull-right { margin-left: .3em; }
 }

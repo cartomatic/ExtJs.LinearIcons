@@ -2,17 +2,17 @@
 
 // Variables
 // --------------------------
-$font-family: Linearicons;
-$font-css-prefix: 'li';
-$font-path:        "../fonts" !default;
-$font-size-base:   14px !default;
-$line-height-base: 1 !default;
-//$font-path:        "//some.font.url/fonts" !default; // for referencing Bootstrap CDN font files directly
-$css-prefix:       $font-css-prefix !default;
-$font-version:          "1.0.0" !default;
-$border-color:     #eee !default;
-$font-inverse:          #fff !default;
-$font-li-width:         (30em / 14) !default;
+$licons-font-family: 'Linearicons';
+$licons-font-css-prefix: 'li';
+$licons-font-path:        "../fonts" !default;
+$licons-font-size-base:   14px !default;
+$licons-line-height-base: 1 !default;
+//$licons-font-path:        "//some.font.url/fonts" !default; // for referencing Bootstrap CDN font files directly
+$licons-css-prefix:       $licons-font-css-prefix !default;
+$licons-font-version:          "1.0.0" !default;
+$licons-border-color:     #eee !default;
+$licons-font-inverse:          #fff !default;
+$licons-font-li-width:         (30em / 14) !default;
 
 
 /*
@@ -21,7 +21,11 @@ note: if u use icomoon.com generated fonts then you will find then in style css.
 basically they can be used in the _icons.scss instead of providing font codes directly
 this way you can declare aliases using same font code var
 */
-$var-home: "\e600";
-
+$licons-var-home: "\e600";
+$licons-var-home2: "\e601";
+$licons-var-home3: "\e602";
+$licons-var-home4: "\e603";
+$licons-var-home5: "\e604";
+$licons-var-home6: "\e605";
 
 //# fashion warn +elevation
