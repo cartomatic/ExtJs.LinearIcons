@@ -3,6 +3,9 @@ resources/fonts/Linearicons.*
 # Sencha #
 ############
 
+#webstorm
+.idea
+
 temp/
 /build/
 .architect
