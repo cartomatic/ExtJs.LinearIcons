@@ -1,25 +1,25 @@
 // Bordered & Pulled
 // -------------------------
 
-.#{$li-css-prefix}-border {
+.#{$css-prefix}-border {
   padding: .2em .25em .15em;
-  border: solid .08em $li-border-color;
+  border: solid .08em $border-color;
   border-radius: .1em;
 }
 
-.#{$li-css-prefix}-pull-left { float: left; }
-.#{$li-css-prefix}-pull-right { float: right; }
+.#{$css-prefix}-pull-left { float: left; }
+.#{$css-prefix}-pull-right { float: right; }
 
-.#{$li-css-prefix} {
-  &.#{$li-css-prefix}-pull-left { margin-right: .3em; }
-  &.#{$li-css-prefix}-pull-right { margin-left: .3em; }
+.#{$css-prefix} {
+  &.#{$css-prefix}-pull-left { margin-right: .3em; }
+  &.#{$css-prefix}-pull-right { margin-left: .3em; }
 }
 
 /* Deprecated as of 4.4.0 */
 .pull-right { float: right; }
 .pull-left { float: left; }
 
-.#{$li-css-prefix} {
+.#{$css-prefix} {
   &.pull-left { margin-right: .3em; }
   &.pull-right { margin-left: .3em; }
 }

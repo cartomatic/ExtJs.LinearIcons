@@ -1,15 +1,13 @@
-/* Linear icons uses the Unicode Private Use Area (PUA) to ensure screen
+/* Linearicons use the Unicode Private Use Area (PUA) to ensure screen
    readers do not read off random characters that represent icons */
 
-.#{$li-css-prefix}-home:before { content: $li-var-home !important; }
-
-.#{$li-css-prefix}-home2:before { content: "\e601" !important; }
-.#{$li-css-prefix}-home3:before { content: "\e602" !important; }
-.#{$li-css-prefix}-home4:before { content: "\e603" !important; }
-.#{$li-css-prefix}-home5:before { content: "\e604" !important; }
-.#{$li-css-prefix}-home6:before { content: "\e605" !important; }
-
 /*
-TODO
-here goes the rest of declarations
+the actual css classes
 */
+
+.#{$css-prefix}-home:before { content: $var-home !important; }
+.#{$css-prefix}-home2:before { content: "\e601" !important; }
+.#{$css-prefix}-home3:before { content: "\e602" !important; }
+.#{$css-prefix}-home4:before { content: "\e603" !important; }
+.#{$css-prefix}-home5:before { content: "\e604" !important; }
+.#{$css-prefix}-home6:before { content: "\e605" !important; }

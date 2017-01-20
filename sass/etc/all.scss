@@ -1,7 +1,7 @@
-$li-font-path: get-resource-path('fonts', 'shared');
+$font-path: get-resource-path('fonts', 'shared');
 
 @import "_mixins";
 
 // NOTE:
-//  _variables.scss is imported much earlier by ext/sass/etc/linear-icons-variables.scss
+//  _variables.scss is imported much earlier by ext/sass/etc/{package-name}-variables.scss
 //  all css generating pieces are imported by src/all.scss

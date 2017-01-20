@@ -1,5 +1,5 @@
 {
-    "namespace": "Ext",
+    "namespace": "LinearIcons",
 
     "name": "linear-icons",
     "type": "code",
@@ -11,7 +11,7 @@
     //    ...
     //],
 
-    "creator": "Sencha",
+    "creator": "Cartomatic",
     "summary": "Package wrapper for Linear icons",
     "detailedDescription": "Sencha Cmd package wrapper for Linear Icons (https://linearicons.com/)",
 
@@ -34,7 +34,7 @@
     ],
 
     "sass": {
-        "namespace": "Ext",
+        "namespace": "LinearIcons",
 
         "etc": "${package.dir}/sass/etc/all.scss",
 

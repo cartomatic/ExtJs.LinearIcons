@@ -16,9 +16,10 @@
 @import "../etc/_stacked.scss";
 @import "../etc/_icons.scss";
 
-// The "x-li" class should be used in Ext JS applications instead
-// of "li".  The "li" class sets some properties that may collide
-// with theme properties, whereas "x-li" sets only the font-family.
-.#{$prefix}li:before {
-    font-family: Linearicons !important;
+
+// The "x-{$font-css-prefix}" class should be used in Ext JS applications instead
+// of "{$font-css-prefix}".  The "{$font-css-prefix}" class sets some properties that may collide
+// with theme properties, whereas "x-{$font-css-prefix}" sets only the font-family.
+.#{$prefix}#{$font-css-prefix}:before {
+    font-family: $font-family !important;
 }

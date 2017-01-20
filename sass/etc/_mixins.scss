@@ -3,12 +3,11 @@
 
 @mixin li-icon() {
   display: inline-block;
-  font: normal normal normal #{$li-font-size-base}/#{$li-line-height-base} Linearicons; // shortening font declaration
+  font: normal normal normal #{$font-size-base}/#{$line-height-base} #{$font-family}; // shortening font declaration
   font-size: inherit; // can't have font-size inherit on line above, so need to override
   text-rendering: auto; // optimizelegibility throws things off #1094
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
 }
 
 @mixin li-icon-rotate($degrees, $rotation) {

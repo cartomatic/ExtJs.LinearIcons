@@ -2,23 +2,26 @@
 
 // Variables
 // --------------------------
+$font-family: Linearicons;
+$font-css-prefix: 'li';
+$font-path:        "../fonts" !default;
+$font-size-base:   14px !default;
+$line-height-base: 1 !default;
+//$font-path:        "//some.font.url/fonts" !default; // for referencing Bootstrap CDN font files directly
+$css-prefix:       $font-css-prefix !default;
+$font-version:          "1.0.0" !default;
+$border-color:     #eee !default;
+$font-inverse:          #fff !default;
+$font-li-width:         (30em / 14) !default;
 
-$li-font-path:        "../fonts" !default;
-$li-font-size-base:   14px !default;
-$li-line-height-base: 1 !default;
-//$li-font-path:        "//some.font.url/fonts" !default; // for referencing Bootstrap CDN font files directly
-$li-css-prefix:       li !default;
-$li-version:          "1.0.0" !default;
-$li-border-color:     #eee !default;
-$li-inverse:          #fff !default;
-$li-li-width:         (30em / 14) !default;
 
-$li-var-home: "\e600";
 /*
-TODO
-here goes the rest of font vars; taken from style css.
+here go vars with font codes;
+note: if u use icomoon.com generated fonts then you will find then in style css.
 basically they can be used in the _icons.scss instead of providing font codes directly
-this way if there are aliases, they will change after updating a list here.
+this way you can declare aliases using same font code var
 */
+$var-home: "\e600";
+
 
 //# fashion warn +elevation

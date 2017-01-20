@@ -1,7 +1,7 @@
 // Stacked Icons
 // -------------------------
 
-.#{$li-css-prefix}-stack {
+.#{$css-prefix}-stack {
   position: relative;
   display: inline-block;
   width: 2em;
@@ -9,12 +9,12 @@
   line-height: 2em;
   vertical-align: middle;
 }
-.#{$li-css-prefix}-stack-1x, .#{$li-css-prefix}-stack-2x {
+.#{$css-prefix}-stack-1x, .#{$css-prefix}-stack-2x {
   position: absolute;
   left: 0;
   width: 100%;
   text-align: center;
 }
-.#{$li-css-prefix}-stack-1x { line-height: inherit; }
-.#{$li-css-prefix}-stack-2x { font-size: 2em; }
-.#{$li-css-prefix}-inverse { color: $li-inverse; }
+.#{$css-prefix}-stack-1x { line-height: inherit; }
+.#{$css-prefix}-stack-2x { font-size: 2em; }
+.#{$css-prefix}-inverse { color: $font-inverse; }
