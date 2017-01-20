@@ -1,7 +1,8 @@
 // Mixins
 // --------------------------
 
-@mixin li-icon() {
+//note: font-icon is declared in sencha stuff.
+@mixin fnt-icon() {
   display: inline-block;
   font: normal normal normal #{$font-size-base}/#{$line-height-base} #{$font-family}; // shortening font declaration
   font-size: inherit; // can't have font-size inherit on line above, so need to override
@@ -10,14 +11,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-@mixin li-icon-rotate($degrees, $rotation) {
+@mixin font-icon-rotate($degrees, $rotation) {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=#{$rotation})";
   -webkit-transform: rotate($degrees);
       -ms-transform: rotate($degrees);
           transform: rotate($degrees);
 }
 
-@mixin li-icon-flip($horiz, $vert, $rotation) {
+@mixin font-icon-flip($horiz, $vert, $rotation) {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=#{$rotation})";
   -webkit-transform: scale($horiz, $vert);
       -ms-transform: scale($horiz, $vert);

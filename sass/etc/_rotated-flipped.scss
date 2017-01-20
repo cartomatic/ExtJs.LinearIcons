@@ -1,12 +1,12 @@
 // Rotated & Flipped Icons
 // -------------------------
 
-.#{$css-prefix}-rotate-90  { @include li-icon-rotate(90deg, 1);  }
-.#{$css-prefix}-rotate-180 { @include li-icon-rotate(180deg, 2); }
-.#{$css-prefix}-rotate-270 { @include li-icon-rotate(270deg, 3); }
+.#{$css-prefix}-rotate-90  { @include font-icon-rotate(90deg, 1);  }
+.#{$css-prefix}-rotate-180 { @include font-icon-rotate(180deg, 2); }
+.#{$css-prefix}-rotate-270 { @include font-icon-rotate(270deg, 3); }
 
-.#{$css-prefix}-flip-horizontal { @include li-icon-flip(-1, 1, 0); }
-.#{$css-prefix}-flip-vertical   { @include li-icon-flip(1, -1, 2); }
+.#{$css-prefix}-flip-horizontal { @include font-icon-flip(-1, 1, 0); }
+.#{$css-prefix}-flip-vertical   { @include font-icon-flip(1, -1, 2); }
 
 // Hook for IE8-9
 // -------------------------

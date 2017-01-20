@@ -3,7 +3,7 @@
 
 //# fashion -inline
 @font-face {
-  font-family: 'Linearicons';
+  font-family: #{$font-family};
   //src: url('#{$font-path}/Linearicons.eot?v=#{$font-version}');
   //# fashion +inline:eot
   //# fashion +inline:ttf
