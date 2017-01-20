@@ -54,7 +54,7 @@ namespace IcoMoonStyleExtractor
                 if (line.Contains(":before"))
                 {
                     className =
-                        line.Substring(line.IndexOf(".") + 1, line.IndexOf(":") - 1).Replace($"{inCssPrefix}-", "").ToLower();
+                        line.Substring(line.IndexOf(".") + 1, line.IndexOf(":") - 1).Replace($"{inCssPrefix}-", "").ToLower().Replace("'", "");
                 }
 
                 if (line.Contains("content:"))
