@@ -59,7 +59,7 @@ namespace IcoMoonStyleExtractor
 
                 if (line.Contains("content:"))
                 {
-                    var content = line.Replace("content:", "").Replace(";", "").Trim();
+                    var content = line.Replace("content:", "").Replace(";", "").Trim().Replace("\"", "").Replace("\\", "");
                     data.Add(className, content);
                 }
             }
@@ -77,13 +77,13 @@ namespace IcoMoonStyleExtractor
                 //.#{$icon54com-css-prefix}-add-bag:before { content: $icon54com-var-add-bag !important; }
                 classes.Add($".#{{${outVarPfx}-css-prefix}}-{cls}:before {{ content: ${outVarPfx}-var-{cls} !important; }}");
 
-                storeData.Add($"{{'name':'{cls}', iconCls: 'x-{outCssPrefix} {outCssPrefix}-{cls}', 'fontCode': '{data[cls]}', 'group': 'group_name'}}");
+                storeData.Add($"{{\"name\":\"{outCssPrefix}-{cls}\", \"iconCls\": \"x-{outCssPrefix} {outCssPrefix}-{cls} {outCssPrefix}-3x\", \"fontCode\": \"{data[cls]}\", \"group\": \"group_name\"}}");
             }
 
             var outDir = Path.GetDirectoryName(css);
             File.WriteAllLines(Path.Combine(outDir, "vars.txt"), vars);
             File.WriteAllLines(Path.Combine(outDir, "classes.txt"), classes);
-            File.WriteAllText(Path.Combine(outDir, "storedata.txt"), string.Join("," + Environment.NewLine, storeData));
+            File.WriteAllText(Path.Combine(outDir, "storedata.json"), $"[{Environment.NewLine}\t{string.Join("," + Environment.NewLine + "\t", storeData)}{Environment.NewLine}]") ;
         }
     }
 }
